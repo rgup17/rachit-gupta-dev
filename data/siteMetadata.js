@@ -1,5 +1,5 @@
 const siteMetadata = {
-  title: 'Portfolio | Rachit Gupta',
+  title: 'Rachit Gupta | Developer Portfolio',
   author: 'Rachit Gupta',
   headerTitle: 'Rachit Gupta Portfolio 🚀',
   description: 'my developer portfolio',
@@ -7,7 +7,7 @@ const siteMetadata = {
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteLogo: '/static/images/logo.png',
-  image: '/static/images/avatar.jpeg',
+  image: '/static/images/pfp.jpeg',
   socialBanner: '/static/images/twitter-card.png',
   email: 'rachitgupta428@gmail.com',
   github: 'https://github.com/rgup17',

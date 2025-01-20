@@ -1,6 +1,6 @@
 ---
 name: Rachit Gupta
-avatar: /static/images/avatar.jpeg
+avatar: /static/images/pfp.jpeg
 occupation: CS Major
 company: Rutgers University, NB
 email: rachitgupta428@gmail.com
