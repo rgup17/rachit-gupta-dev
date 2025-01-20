@@ -64,13 +64,23 @@ export default function AuthorLayout({ children, frontMatter }) {
 
             <p className="sm:block md:hidden lg:hidden">
               I am always looking to learn new things. I am currently working on a few projects
-              related to
-              <span className="font-semibold">
-                {' '}
-                Backend Development/Machine Learning/Full Stack.{' '}
-              </span>
-              At the same time I am actively on the lookout for remote internships which I can
-              pursue in field of Data Science.
+              related to{' '}
+              <RoughNotation
+                animationDelay="1000"
+                animationDuration="3000"
+                type="highlight"
+                color="#DE1D8D"
+                strokeWidth="3"
+                show={true}
+              >
+                <span className="text-black dark:text-white">
+                  Backend Development/Machine Learning/Full Stack.{' '}
+                </span>
+              </RoughNotation>
+              &nbsp;I am seeking software engineering internships where I can apply my skills in
+              backend development and contribute to creating robust, high-performing systems. I
+              thrive in environments that challenge me to innovate and make a positive impact on
+              users.
             </p>
             <p className="hidden md:block">
               I am always looking to learn new things. I am currently working on a few projects

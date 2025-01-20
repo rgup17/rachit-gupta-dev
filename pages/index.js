@@ -46,7 +46,7 @@ export default function Home({ posts }) {
               {` and currently seeking backend/fullstack software engineering internship opportunities.`}
             </h2>
             <p className="pt-5 text-lg leading-7 text-slate-600 dark:text-slate-300 sm:block md:hidden lg:hidden">
-              This is a place for{' '}
+              This is a place for me to {' '}
               <RoughNotation
                 animate="true"
                 type="box"
@@ -56,9 +56,15 @@ export default function Home({ posts }) {
                 animationDuration={2500}
                 className="text-slate-200"
               >
-                learning more about me&nbsp;
+                share more about myself and my projects/experiences&nbsp;
               </RoughNotation>
-              . Have a good read!
+              . Feel free to{' '}
+              <Link
+                href={'/contact'}
+                className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
+              >
+                connect!
+              </Link>{' '}
             </p>
             <p className="hidden pt-10 text-lg leading-7 text-slate-600 dark:text-slate-300 md:block">
               This is a place for me to{' '}
