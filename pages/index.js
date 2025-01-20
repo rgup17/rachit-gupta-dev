@@ -46,7 +46,7 @@ export default function Home({ posts }) {
               {` and currently seeking backend/fullstack software engineering internship opportunities.`}
             </h2>
             <p className="pt-5 text-lg leading-7 text-slate-600 dark:text-slate-300 sm:block md:hidden lg:hidden">
-              This is a place for me to {' '}
+              This is a place for me to{' '}
               <RoughNotation
                 animate="true"
                 type="box"
