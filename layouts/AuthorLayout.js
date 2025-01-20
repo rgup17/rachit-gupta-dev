@@ -70,11 +70,11 @@ export default function AuthorLayout({ children, frontMatter }) {
                 animationDuration="3000"
                 type="highlight"
                 color="#DE1D8D"
-                strokeWidth="3"
+                strokeWidth="1"
                 show={true}
               >
                 <span className="text-black dark:text-white">
-                  Backend Development/Machine Learning/Full Stack.{' '}
+                  Backend Development/Full Stack/AI.{' '}
                 </span>
               </RoughNotation>
               &nbsp;I am seeking software engineering internships where I can apply my skills in
@@ -94,7 +94,7 @@ export default function AuthorLayout({ children, frontMatter }) {
                 show={true}
               >
                 <span className="text-black dark:text-white">
-                  Backend Development/Machine Learning/Full Stack.{' '}
+                  Backend Development/Full Stack/AI.{' '}
                 </span>
               </RoughNotation>
               &nbsp;I am seeking software engineering internships where I can apply my skills in
