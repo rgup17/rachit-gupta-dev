@@ -20,8 +20,7 @@ const experienceData = [
     url: 'https://www.math.rutgers.edu/academics/undergraduate/courses/942-01-640-152-calculus-ii-for-the-mathematical-and-physical-sciences',
     text1:
       'Led 60 recitations for over 120 students in a Calculus II course with 1500+ enrollees, enhancing student engagement and understanding.',
-    text2:
-      'Authored solutions for 50+ problem sheets, reducing instructor grading time by 80%.',
+    text2: 'Authored solutions for 50+ problem sheets, reducing instructor grading time by 80%.',
     text3:
       'Facilitated group discussions, improving course comprehension by 30% based on student surveys.',
   },

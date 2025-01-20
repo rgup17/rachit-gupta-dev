@@ -95,7 +95,7 @@ export default function DropMenu() {
                 </Link>
               )}
             </Menu.Item>
-            
+
             <Menu.Item>
               {({ active }) => (
                 <Link href="/projects">
@@ -170,8 +170,6 @@ export default function DropMenu() {
                 </Link>
               )}
             </Menu.Item> */}
-
-            
           </div>
         </Menu.Items>
       </Transition>

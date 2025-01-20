@@ -46,8 +46,7 @@ export default function AuthorLayout({ children, frontMatter }) {
             <h3 className="pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight">{name}</h3>
             <div className="text-gray-500 dark:text-gray-400">{occupation}</div>
             <div className="text-gray-500 dark:text-gray-400">{company}</div>
-            <div className="flex flex-col pt-3">
-            </div>
+            <div className="flex flex-col pt-3"></div>
           </div>
           <div className="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">
             <p>
@@ -70,9 +69,8 @@ export default function AuthorLayout({ children, frontMatter }) {
                 {' '}
                 Backend Development/Machine Learning/Full Stack.{' '}
               </span>
-              At the same time I am 
-                actively on the lookout for remote internships which I can pursue in field of Data
-                Science.
+              At the same time I am actively on the lookout for remote internships which I can
+              pursue in field of Data Science.
             </p>
             <p className="hidden md:block">
               I am always looking to learn new things. I am currently working on a few projects
@@ -86,17 +84,18 @@ export default function AuthorLayout({ children, frontMatter }) {
                 show={true}
               >
                 <span className="text-black dark:text-white">
-                Backend Development/Machine Learning/Full Stack.{' '}
+                  Backend Development/Machine Learning/Full Stack.{' '}
                 </span>
               </RoughNotation>
-              &nbsp;I am seeking software engineering internships where I can apply my skills in backend development
-              and contribute to creating robust, high-performing systems.
-              I thrive in environments that challenge me to innovate and make a positive impact on users.
+              &nbsp;I am seeking software engineering internships where I can apply my skills in
+              backend development and contribute to creating robust, high-performing systems. I
+              thrive in environments that challenge me to innovate and make a positive impact on
+              users.
             </p>
             <p>
-            I am always interested in collaborating with others on exciting projects and enjoy exchanging ideas about technology.
-            Feel free to reach out if you have anything to talk about,
-              you can reach me through{' '}
+              I am always interested in collaborating with others on exciting projects and enjoy
+              exchanging ideas about technology. Feel free to reach out if you have anything to talk
+              about, you can reach me through{' '}
               <Link
                 href={'mailto:rachitgupta428@gmail.com'}
                 className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
@@ -148,90 +147,82 @@ export default function AuthorLayout({ children, frontMatter }) {
             </h1>
           </div>
           <div className="grid gap-6 pt-8 sm:grid-cols-2 lg:grid-cols-3">
-  <div className="rounded-lg bg-gray-200 p-6 dark:bg-gray-800 border-pink-500 border-2 shadow-lg hover:shadow-pink-500 transition-shadow duration-300">
-    <h3 className="mb-3 text-xl font-bold text-gray-900 dark:text-gray-100">
-      Programming Languages
-    </h3>
-    <ul className="list-disc pl-5 text-gray-700 dark:text-gray-300">
-      <li>Java</li>
-      <li>Python</li>
-      <li>JavaScript</li>
-      <li>TypeScript</li>
-      <li>C</li>
-    </ul>
-  </div>
-  
-  {/* Backend Technologies */}
-  <div className="rounded-lg bg-gray-200 p-6 dark:bg-gray-800 border-pink-500 border-2 shadow-lg hover:shadow-pink-500 transition-shadow duration-300">
-    <h3 className="mb-3 text-xl font-bold text-gray-900 dark:text-gray-100">
-      Backend Technologies
-    </h3>
-    <ul className="list-disc pl-5 text-gray-700 dark:text-gray-300">
-      <li>Spring Boot</li>
-      <li>Kafka</li>
-      <li>Redis</li>
-      <li>REST APIs</li>
-      <li>WebSockets</li>
-    </ul>
-  </div>
+            <div className="rounded-lg border-2 border-pink-500 bg-gray-200 p-6 shadow-lg transition-shadow duration-300 hover:shadow-pink-500 dark:bg-gray-800">
+              <h3 className="mb-3 text-xl font-bold text-gray-900 dark:text-gray-100">
+                Programming Languages
+              </h3>
+              <ul className="list-disc pl-5 text-gray-700 dark:text-gray-300">
+                <li>Java</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>C</li>
+              </ul>
+            </div>
 
-  {/* Frontend Technologies */}
-  <div className="rounded-lg bg-gray-200 p-6 dark:bg-gray-800 border-pink-500 border-2 shadow-lg hover:shadow-pink-500 transition-shadow duration-300">
-    <h3 className="mb-3 text-xl font-bold text-gray-900 dark:text-gray-100">
-      Frontend Technologies
-    </h3>
-    <ul className="list-disc pl-5 text-gray-700 dark:text-gray-300">
-      <li>React.js</li>
-      <li>Next.js</li>
-      <li>Chakra UI</li>
-      <li>AG Grid</li>
-      <li>Tailwind CSS</li>
-    </ul>
-  </div>
+            {/* Backend Technologies */}
+            <div className="rounded-lg border-2 border-pink-500 bg-gray-200 p-6 shadow-lg transition-shadow duration-300 hover:shadow-pink-500 dark:bg-gray-800">
+              <h3 className="mb-3 text-xl font-bold text-gray-900 dark:text-gray-100">
+                Backend Technologies
+              </h3>
+              <ul className="list-disc pl-5 text-gray-700 dark:text-gray-300">
+                <li>Spring Boot</li>
+                <li>Kafka</li>
+                <li>Redis</li>
+                <li>REST APIs</li>
+                <li>WebSockets</li>
+              </ul>
+            </div>
 
-  {/* Databases */}
-  <div className="rounded-lg bg-gray-200 p-6 dark:bg-gray-800 border-pink-500 border-2 shadow-lg hover:shadow-pink-500 transition-shadow duration-300">
-    <h3 className="mb-3 text-xl font-bold text-gray-900 dark:text-gray-100">
-      Databases
-    </h3>
-    <ul className="list-disc pl-5 text-gray-700 dark:text-gray-300">
-      <li>PostgreSQL</li>
-      <li>MongoDB</li>
-      <li>MySQL</li>
-      <li>Redis</li>
-    </ul>
-  </div>
+            {/* Frontend Technologies */}
+            <div className="rounded-lg border-2 border-pink-500 bg-gray-200 p-6 shadow-lg transition-shadow duration-300 hover:shadow-pink-500 dark:bg-gray-800">
+              <h3 className="mb-3 text-xl font-bold text-gray-900 dark:text-gray-100">
+                Frontend Technologies
+              </h3>
+              <ul className="list-disc pl-5 text-gray-700 dark:text-gray-300">
+                <li>React.js</li>
+                <li>Next.js</li>
+                <li>Chakra UI</li>
+                <li>AG Grid</li>
+                <li>Tailwind CSS</li>
+              </ul>
+            </div>
 
-  {/* Concepts */}
-  <div className="rounded-lg bg-gray-200 p-6 dark:bg-gray-800 border-pink-500 border-2 shadow-lg hover:shadow-pink-500 transition-shadow duration-300">
-    <h3 className="mb-3 text-xl font-bold text-gray-900 dark:text-gray-100">
-      Concepts
-    </h3>
-    <ul className="list-disc pl-5 text-gray-700 dark:text-gray-300">
-      <li>Microservices Architecture</li>
-      <li>Event-Driven Systems</li>
-      <li>Caching</li>
-      <li>Agile Methodology</li>
-      <li>Authentication/Authorization</li>
-    </ul>
-  </div>
+            {/* Databases */}
+            <div className="rounded-lg border-2 border-pink-500 bg-gray-200 p-6 shadow-lg transition-shadow duration-300 hover:shadow-pink-500 dark:bg-gray-800">
+              <h3 className="mb-3 text-xl font-bold text-gray-900 dark:text-gray-100">Databases</h3>
+              <ul className="list-disc pl-5 text-gray-700 dark:text-gray-300">
+                <li>PostgreSQL</li>
+                <li>MongoDB</li>
+                <li>MySQL</li>
+                <li>Redis</li>
+              </ul>
+            </div>
 
-  {/* Tools */}
-  <div className="rounded-lg bg-gray-200 p-6 dark:bg-gray-800 border-pink-500 border-2 shadow-lg hover:shadow-pink-500 transition-shadow duration-300">
-    <h3 className="mb-3 text-xl font-bold text-gray-900 dark:text-gray-100">
-      Tools
-    </h3>
-    <ul className="list-disc pl-5 text-gray-700 dark:text-gray-300">
-      <li>Docker</li>
-      <li>Kubernetes</li>
-      <li>Git</li>
-      <li>IntelliJ IDEA</li>
-      <li>Maven</li>
-    </ul>
-  </div>
-</div>
+            {/* Concepts */}
+            <div className="rounded-lg border-2 border-pink-500 bg-gray-200 p-6 shadow-lg transition-shadow duration-300 hover:shadow-pink-500 dark:bg-gray-800">
+              <h3 className="mb-3 text-xl font-bold text-gray-900 dark:text-gray-100">Concepts</h3>
+              <ul className="list-disc pl-5 text-gray-700 dark:text-gray-300">
+                <li>Microservices Architecture</li>
+                <li>Event-Driven Systems</li>
+                <li>Caching</li>
+                <li>Agile Methodology</li>
+                <li>Authentication/Authorization</li>
+              </ul>
+            </div>
 
-
+            {/* Tools */}
+            <div className="rounded-lg border-2 border-pink-500 bg-gray-200 p-6 shadow-lg transition-shadow duration-300 hover:shadow-pink-500 dark:bg-gray-800">
+              <h3 className="mb-3 text-xl font-bold text-gray-900 dark:text-gray-100">Tools</h3>
+              <ul className="list-disc pl-5 text-gray-700 dark:text-gray-300">
+                <li>Docker</li>
+                <li>Kubernetes</li>
+                <li>Git</li>
+                <li>IntelliJ IDEA</li>
+                <li>Maven</li>
+              </ul>
+            </div>
+          </div>
         </div>
 
         {/* Experience Section */}

@@ -22,12 +22,14 @@ export default function Home({ posts }) {
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <CursorTrail />
-      <div className='mt-24'>
+      <div className="mt-24">
         <div className="mb-12 flex flex-col items-center gap-x-12 xl:flex-row">
           <div className="pt-6">
             <h1 className="pb-6 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
               Hi, I am{' '}
-              <span className="text-primary-color-500 dark:text-primary-color-dark-500">Rachit</span>
+              <span className="text-primary-color-500 dark:text-primary-color-dark-500">
+                Rachit
+              </span>
             </h1>
             <h2 className="prose pt-5 text-lg text-gray-600 dark:text-gray-300">
               {`I am a CS Major @ Rutgers graduating May 2026. I'm passionate about building `}
@@ -59,7 +61,7 @@ export default function Home({ posts }) {
               . Have a good read!
             </p>
             <p className="hidden pt-10 text-lg leading-7 text-slate-600 dark:text-slate-300 md:block">
-              This is a place for me to {' '}
+              This is a place for me to{' '}
               <RoughNotation
                 animate="true"
                 type="box"
@@ -71,13 +73,13 @@ export default function Home({ posts }) {
               >
                 share more about myself and my projects/experiences&nbsp;
               </RoughNotation>
-              . Feel free to <Link
+              . Feel free to{' '}
+              <Link
                 href={'/contact'}
                 className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
               >
-                 connect!
-              </Link>
-             {' '}
+                connect!
+              </Link>{' '}
               <div className="mt-8 text-slate-600 dark:text-slate-400">
                 <span className="text-sm">Press</span>{' '}
                 <span className="rounded-md bg-gray-300 p-1 text-sm text-gray-900 dark:bg-gray-400">
@@ -215,9 +217,7 @@ export default function Home({ posts }) {
             </div>
           </div>
         </div>
-        
       </div>
-      
     </>
   )
 }

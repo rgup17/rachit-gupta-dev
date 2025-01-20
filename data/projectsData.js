@@ -5,9 +5,9 @@ const projectsData = [
     title: 'SpeedChat',
     description: (
       <>
-        A microservices-based real-time chat platform designed to support over 1000 concurrent users, featuring
-          secure OTP-based authentication
-        , Redis Pub/Sub for low-latency broadcasting, and Kafka-driven batch processing for reliable message storage.
+        A microservices-based real-time chat platform designed to support over 1000 concurrent
+        users, featuring secure OTP-based authentication , Redis Pub/Sub for low-latency
+        broadcasting, and Kafka-driven batch processing for reliable message storage.
       </>
     ),
     imgSrc: '',
@@ -22,7 +22,8 @@ const projectsData = [
   },
   {
     title: 'Moodify',
-    description: 'A platform that uses deep learning/AI to analyze your journal entries to understand your emotions and recommends personalized Spotify playlists based on your mood. It also tracks emotional trends over time to provide insights into your mood patterns and music preferences.',
+    description:
+      'A platform that uses deep learning/AI to analyze your journal entries to understand your emotions and recommends personalized Spotify playlists based on your mood. It also tracks emotional trends over time to provide insights into your mood patterns and music preferences.',
     imgSrc: '',
     href: '',
     github: 'https://github.com/rgup17/moodify',
@@ -34,7 +35,8 @@ const projectsData = [
   },
   {
     title: 'MovieRecommender',
-    description: 'A machine learning project that recommends personalized movies by analyzing user behavior and movie metadata. It incorporates tailored rating thresholds and personalized weighting to deliver smarter, more accurate suggestions.',
+    description:
+      'A machine learning project that recommends personalized movies by analyzing user behavior and movie metadata. It incorporates tailored rating thresholds and personalized weighting to deliver smarter, more accurate suggestions.',
     imgSrc: '',
     href: '',
     github: 'https://github.com/rgup17/MovieRecommender',
@@ -45,7 +47,8 @@ const projectsData = [
   },
   {
     title: 'PathVisual',
-    description: 'A tool that visually demonstrates how different pathfinding algorithms like Dijkstra’s and DFS work by solving mazes. It’s designed to help users understand these algorithms interactively with clear visualizations.',
+    description:
+      'A tool that visually demonstrates how different pathfinding algorithms like Dijkstra’s and DFS work by solving mazes. It’s designed to help users understand these algorithms interactively with clear visualizations.',
     imgSrc: '',
     href: '',
     github: 'https://github.com/rgup17/visualizepathfinder',
@@ -61,12 +64,13 @@ const projectsData = [
   },
   {
     title: 'MyShell',
-    description: 'A custom linux shell that supports interactive and batch modes, handling commands like cd, pwd, exit, pipelines (|), redirection (>, <), and wildcards (*). It efficiently processes user inputs, handles conditionals like then and else, and executes commands with precise precedence for pipelines and redirection.',
+    description:
+      'A custom linux shell that supports interactive and batch modes, handling commands like cd, pwd, exit, pipelines (|), redirection (>, <), and wildcards (*). It efficiently processes user inputs, handles conditionals like then and else, and executes commands with precise precedence for pipelines and redirection.',
     imgSrc: '',
     href: '',
     github: 'https://github.com/vianmiranda/systems-214/tree/main/myshell',
     tech1: 'C',
-  }
+  },
 ]
 
 export default projectsData

@@ -32,8 +32,6 @@ const Card = ({ title, description, imgSrc, href, github, ...tech }) => (
       </div>
     </div>
   </div>
-);
-
-
+)
 
 export default Card
