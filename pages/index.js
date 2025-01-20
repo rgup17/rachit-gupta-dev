@@ -89,8 +89,7 @@ export default function Home({ posts }) {
               .
             </p>
             {/* Moved this <div> outside the <p> */}
-            <div className="mt-8 text-slate-600 dark:text-slate-400">
-            </div>
+            <div className="mt-8 text-slate-600 dark:text-slate-400"></div>
           </div>
           <div className="flex items-center justify-center">
             <div className="grid grid-cols-1 grid-rows-3 gap-8 py-12">
@@ -192,4 +191,3 @@ export default function Home({ posts }) {
     </>
   )
 }
-
