@@ -5,7 +5,7 @@ const siteMetadata = {
   description: 'my developer portfolio',
   snippets: 'Reuseable code snippets collected by Rachit',
   language: 'en-us',
-  theme: 'system', // system, dark or light
+  theme: 'dark', // system, dark or light
   siteLogo: '/static/images/logo.png',
   image: '/static/images/pfp.jpeg',
   socialBanner: '/static/images/twitter-card.png',
