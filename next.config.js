@@ -9,6 +9,7 @@ const ContentSecurityPolicy = `
   style-src 'self' 'unsafe-inline';
   img-src * blob: data:;
   media-src 'none';
+  connect-src * https://www.google-analytics.com https://www.googletagmanager.com;
   connect-src *;
   font-src 'self';
   frame-src 'self' giscus.app;
