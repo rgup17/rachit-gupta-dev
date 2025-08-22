@@ -15,7 +15,7 @@ export default function Resume() {
       <CursorTrail />
       <div className="flex min-h-screen flex-col items-center justify-center bg-black p-4 text-white">
         <h1 className="mb-4 text-xl font-extrabold">My Resume</h1>
-        <p className="mb-6 text-center text-lg">Last updated 01/19/2025</p>
+        <p className="mb-6 text-center text-lg">Last updated 08/22/2025</p>
 
         <div className="mb-6 w-full max-w-6xl rounded-lg border-2 border-pink-500 p-2 shadow-lg">
           {/* Desktop: show iframe + both buttons */}
